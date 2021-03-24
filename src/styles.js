@@ -39,6 +39,7 @@ export const Content = styled.div`
 
 @media screen and (max-width: 900px){
     header{
+        width: 90vw;
         h1{
             font-size: 32px;
         }
@@ -224,7 +225,7 @@ align-items: center;
 @media screen and (max-width: 700px){
     width: 80vw;
     img{
-        width: 450px;
+        width: 80vw;
     }
 }
 `;
