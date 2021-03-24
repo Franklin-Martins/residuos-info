@@ -38,8 +38,11 @@ export const Content = styled.div`
     }
 
 @media screen and (max-width: 900px){
-    width: 90vw;
+    
+    width: 100vw;
     header{
+        width: 90vw;
+        padding: 20px;
         h1{
             font-size: 32px;
         }
@@ -161,6 +164,9 @@ align-items: center;
 padding: 20px 20px 60px 20px;
 h2{
     color: #299610;
+}
+@media screen and (max-width:900px){
+    padding: 20px;
 }
 `;
 
