@@ -41,8 +41,11 @@ export const Content = styled.div`
     
     width: 100vw;
     header{
-        width: 90vw;
+        width: 100vw;
         padding: 20px;
+        div{
+            width: 80vw;
+        }
         h1{
             font-size: 32px;
         }
@@ -167,6 +170,7 @@ h2{
 }
 @media screen and (max-width:900px){
     padding: 20px;
+    width: 80vw;
 }
 `;
 
