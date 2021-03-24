@@ -129,7 +129,7 @@ males que essa atitude pode acarretar ao meio ambiente e a saúde pública.</p>
         <strong>Entre em contato conosco!</strong>
         <ul>
           <li>
-            <a href="https://wa.me/5509295595172/?text=Estou%20com%20dúvidas%20sobre%20resíduos%20">
+            <a href="https://wa.me/5509288531207/?text=Estou%20com%20dúvidas%20sobre%20resíduos%20">
             <FaWhatsapp />
             <p>Whatsapp</p>
             </a>
