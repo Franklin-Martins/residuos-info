@@ -16,16 +16,20 @@ import {
 
 import GraphicOne from './assets/1.png';
 import GraphicTwo from './assets/2.png';
+import GarbageImg from './assets/garbage.svg';
+import TattoImg from './assets/tatto.svg';
+import PetImg from './assets/pet.svg';
+import DiabetImg from './assets/diabet.svg';
 
 function App() {
   const generators = [
-    {id: 1, imgURL: 'https://www.flaticon.com/svg/vstatic/svg/1595/1595929.svg?token=exp=1616436738~hmac=220b1ecf79be6fce47a4b2dbcff25aef', 
+    {id: 1, imgURL: TattoImg, 
     title: 'Serviços de tatuagens', text: 'A manipulação dos resíduos perfurocortantes com agentes biológicos pode causar acidentes, levando à contaminação da população, caso os Resíduos de Serviços de Saúde (RSS)', 
     font: 'https://www.servioeste.com.br/blog/como-estudios-de-tatuagem-devem-gerenciar-seus-residuos'},
-    {id: 2, imgURL: 'https://www.flaticon.com/svg/vstatic/svg/3111/3111381.svg?token=exp=1616436834~hmac=e285b1e2a44fed3f3f1d6ef06d6b0c6b', 
+    {id: 2, imgURL: PetImg, 
     title: 'Serviços de veterinária', text: 'Assim como outros serviços de saúde, hospitais, clínicas veterinárias e pet shops também devem se atentar ao descarte de seu lixo. Isso é ser responsável com a sociedade e com o meio ambiente, já que alguns itens podem colocar em risco a saúde dos pets e da população em geral.',
      font: 'https://www.revistapetcenter.com.br/administracao/lixo-do-pet-shop-e-clinica-veterinaria-como-descarta-lo-corretamente-aprenda/'},
-    {id: 3, imgURL: 'https://www.flaticon.com/svg/vstatic/svg/3209/3209174.svg?token=exp=1616436925~hmac=e955712268acfafea1b3c1c76f4b5e0a',
+    {id: 3, imgURL: DiabetImg,
     title: 'Insulina de dependentes', 
     text: 'Na forma mais comum de descarte de seringas, lancetas, fitas reagentes e frascos de insulina, os usuários usaram garrafas PET, embalagem considerada inadequada pela Associação Americana de Diabetes (ADA).', 
     font: 'https://portal.coren-sp.gov.br/noticias/veja-como-orientar-os-usuarios-de-insulina-para-o-descarte-adequado-de-residuos/'
@@ -42,7 +46,7 @@ function App() {
 desinformada despeja esses resíduos no lixo domiciliar sem o conhecimento dos
 males que essa atitude pode acarretar ao meio ambiente e a saúde pública.</p>
           </div>
-          <img src="https://www.flaticon.com/svg/vstatic/svg/1534/1534219.svg?token=exp=1616423761~hmac=a179ba82b017cfb81d84217c57b5ee98" alt="https://www.flaticon.com/svg/vstatic/svg/1534/1534219.svg?token=exp=1616423761~hmac=a179ba82b017cfb81d84217c57b5ee98"/>
+          <img src={GarbageImg} alt="Lixos"/>
         </header>
         <Resume>
           <h2>Por quê você deveria se informar sobre resíduos?</h2>

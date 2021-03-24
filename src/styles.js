@@ -38,8 +38,8 @@ export const Content = styled.div`
     }
 
 @media screen and (max-width: 900px){
+    width: 90vw;
     header{
-        width: 90vw;
         h1{
             font-size: 32px;
         }
