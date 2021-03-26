@@ -5,12 +5,16 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    p{
+        text-align: justify;
+    }
 `;
 
 export const Content = styled.div`
-    align-self: flex-start;
+    align-self: center;
     display: flex;
     margin-top: 20px;
     padding: 20px;
@@ -96,6 +100,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 10px;
+p{
+    text-align: justify;
+    padding: 5px;
+}
 h1{
     color: #fff;
     margin-bottom: 20px;
@@ -106,6 +114,8 @@ ul{
     align-self: center;
 }
 li{
+    padding: 2px;
+    padding-right: 2px;
     a{
         align-self: flex-end;
         justify-self: flex-end;
@@ -269,3 +279,28 @@ background-color:  #299610;
         filter: invert();
     }
 `;
+export const About = styled.div`
+align-self: center;
+margin-top: 40px;
+width: 900px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+h2{
+    color: #299610;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+p{
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 900px){
+    width: 90vw;
+    padding: 20px;
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+}`
