@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import backgroundIMG from '../../assets/background.jpeg'
-
 export const Container = styled.header`
     background-color: #299610;
     
